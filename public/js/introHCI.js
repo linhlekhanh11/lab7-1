@@ -10,4 +10,7 @@ $(document).ready(function() {
  */
 function initializePage() {
 	// your code here
+	e.preventDefault;
+	ga("create", "UA-190060713-1", "auto");
+	ga("send", "event", 'like', "click");
 }
